@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "describe": true,
+    "it": true,
+    "expect": true
+  },
+  "extends": [
+    "standard"
+  ],
+  "rules": {
+    "no-unused-vars": 0,
+    "no-undef": 0
+  }
+}
